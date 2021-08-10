@@ -25,6 +25,7 @@ print('acc_score : ', acc)
 result = model.score(x_data, y_data)
 print('model_score : ', result)
 
+
 '''
 [[0, 0], [0, 1], [1, 0], [1, 1]] result : [1 1 1 1]
 acc_score :  0.5
