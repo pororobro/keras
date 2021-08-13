@@ -45,6 +45,8 @@ for (name, algorithm) in allAlgorithms:
     except:
         # continue
         print(name, 'is Null')
+      
+      
 
 '''
 AdaBoostClassifier  accuracy :  0.41959183673469386
