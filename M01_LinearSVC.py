@@ -66,6 +66,7 @@ print('model_score :', result)
 # print('loss : ', loss[0])
 # print('acc : ', loss[1])
 
+
 from sklearn.metrics import r2_score, accuracy_score
 
 y_predict = model.predict(x_test)
