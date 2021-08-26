@@ -65,6 +65,7 @@ score = model.score(x_test, y_test)
 y_pred = model.predict(x_test)
 f1 = f1_score(y_test, y_pred)
 
+
 print("==================SMOTE==================")
 
 st = time.time()
