@@ -25,6 +25,7 @@ scaler = RobustScaler()
 x_train = scaler.fit_transform(x_train)
 x_test = scaler.transform(x_test)
 
+
 # 2. model 구성
 from sklearn.utils import all_estimators
 import warnings 
