@@ -18,6 +18,7 @@ from sklearn.metrics import accuracy_score, f1_score
 datasets = pd.read_csv('../_data/winequality-white.csv', sep=';',
                        index_col=None, header=0 ) # (4898, 12)
 
+
 datasets = datasets.values
 
 x = datasets[:,0:11] # (4898, 11)
