@@ -7,6 +7,7 @@ import numpy as np
 from sklearn.metrics import accuracy_score
 
 
+
 # 1. data
 x_data = [[ 0, 0 ], [ 0, 1 ], [ 1, 0 ], [ 1, 1 ]]
 y_data = [ 0, 0, 0, 1 ]
