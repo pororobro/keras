@@ -14,4 +14,5 @@ plt.plot(x, y)
 plt.grid()
 plt.show()
 
+
 # // =. elu / selu / leacky relu
