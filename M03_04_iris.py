@@ -63,6 +63,7 @@ from sklearn.metrics import r2_score, accuracy_score
 y_predict = model.predict(x_test)
 acc = accuracy_score(y_test, y_predict)
 
+
 print('acc_score :', acc)
 '''
 model_score : 0.9333333333333333
